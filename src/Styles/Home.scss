@@ -1,0 +1,50 @@
+.login.container {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://user-images.githubusercontent.com/43678736/120118513-8b1abc00-c158-11eb-9f3c-32f3dad78d93.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  //background-color: teal;
+}
+
+.login.container .form {
+  border-radius: 4px;
+  padding: 5% 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.75);
+  img {
+    border-radius: 4px;
+    width: 87%;
+    margin-bottom: 5%;
+  }
+  a {
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 3%;
+    // text-decoration: line-through;
+  }
+}
+
+//mobile
+@media screen and (max-width: 600px) {
+  .login.container .form {
+    width: 80%;
+
+    img {
+      width: 65%;
+      margin-bottom: 5%;
+    }
+  }
+}

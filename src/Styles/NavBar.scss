@@ -1,0 +1,16 @@
+.avatar {
+  border-radius: 50%;
+  height: 55px;
+  cursor: pointer;
+}
+//mobile
+@media screen and (max-width: 600px) {
+  .avatar {
+    height: 50px;
+  }
+}
+.logo {
+  margin: 2;
+  height: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+$background-grey: #f8f9fa;
+.main-wrapper{
+    display: flex;
+    flex-direction: column; 
+//    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: stretch;
+    //min-width: 100vh;
+
+    min-height: 100vh;
+    background-color: $background-grey;
+}
+.sub-header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+
+}
+.body{
+   border-radius: 4px;
+    margin: 2%;
+    min-height: calc(100vh - 288px);
+    background-color: #ffffff;
+    width: auto;
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .body{
+        height: calc(100vh - 170px);
+     }
+  }
+  

@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: #15558d;
+  color: white;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-container a {
+  color: white;
+}
+.footer-container .section {
+  
+  //width: 1200px;
+  display: flex;
+  flex-direction: row;
+  img{
+    align-self: flex-start;
+  }
+}
